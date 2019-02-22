@@ -1,0 +1,399 @@
+@font-face{
+	font-family: Amatica SC;
+	src:url('./AmaticSC-Regular.ttf');
+}
+
+body{
+	background-color: #80a8cc;
+}
+
+/*头部菜单栏*/
+.common{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.heading{
+	height: 100px;
+	background-color: #fcf9f4;
+	vertical-align: middle;
+}
+
+.heading_side{
+	float: left;
+	width: 24%;
+	height: 100%;
+}
+
+.heading_center{
+	float: left;
+	width: 48%;
+	height: 100%;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-left: 1px solid #eae7e2;
+	border-right: 1px solid #eae7e2;
+}
+
+.heading_icon{
+	float: right;
+	margin-right: 20px;
+	margin-top: 18px;
+}
+
+#heading_menu{
+	margin: 0px;
+	padding: 0px;
+}
+
+#heading_menu li{
+	list-style: none;
+	float: left;
+	display: block;
+}
+
+#heading_menu li a{
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: #d8d6d5;
+	text-decoration: none;
+	margin-left: 18px;
+	font-size: 14px;
+}
+
+.heading_donate{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	border:1px solid #dad7d2;
+	color: #4d4e59;
+	margin-left: 35px;
+	border-radius: 4px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*第一个模块*/
+.model1{
+	height: 794px;
+	background-image: url(./children.jpg);
+	background-size: cover;
+	opacity: 0.7;
+}
+
+#model1_slogan{
+	display: inline-block;	
+	color: #ffffff;
+	padding-top: 300px;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#model1_inner{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.model1_inner_a{
+	display: inline-block;
+	width: 250px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 4px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#inner_stu{
+	border:1px solid #fff;
+}
+
+#inner_tutor{
+	margin-left: 30px;
+	background-color:rgba(255,255,255,0.2);
+}
+
+
+/*第二个模块*/
+.model2{
+	height: 600px;
+	background-color: #FCF9F4;
+}
+
+#model2_slogan{
+	display: inline-block;	
+	color: #4d4e59;
+	padding-top: 150px;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#model2_inner{
+	margin-top: 32px;
+	text-align: center;
+}
+
+#model2_inner_text{
+	display: block;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	color: #636471;
+}
+
+#inner_donate{
+	display: inline-block;
+	width: 250px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #636471;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 4px;
+	background-color: #ffcd62;
+	margin-top: 32px;
+	margin-bottom: 200px;
+}
+
+/*第3个模块*/
+.model3{
+	height: 700px;
+	background-color: #91d0b1;
+}
+
+#model3_content_left{
+	float: left;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: 80px;
+}
+
+#model3circle{
+	margin-left: 280px;
+	margin-top: 180px;
+}
+
+#model3_content_right{
+	margin-left: 150px;
+	height: 100%;
+}
+
+#model3_slogan{
+	display: block;
+	padding-top: 170px;
+	color: #fcf9f4;
+	text-align: left;
+	font-size: 52px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#model3_inner_text{
+	display: block;
+	margin-top: 32px;
+	font-size: 20px;
+	color: #fcf9f4;
+	width: 86%;
+}
+
+#inner_start{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fcf9f4;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 4px;
+	background-color: #7CB69A;
+	margin-top: 32px;
+}
+
+
+/*第4个模块*/
+.model4{
+	height: 700px;
+	background-color: #ffcd62;
+}
+
+#model4_content_left{
+	float: left;
+	height: 100%;
+	padding-left: 200px;
+	width: 45%;
+}
+
+#model4_slogan{
+	display: block;
+	padding-top: 170px;
+	color: #fcf9f4;
+	text-align: left;
+	font-size: 52px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#model4_inner_text{
+	display: block;
+	margin-top: 32px;
+	font-size: 20px;
+	color: #fcf9f4;
+	width: 85%;
+}
+
+#inner_join{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 4px;
+	background-color: #eabc5b;
+	margin-top: 32px;
+}
+
+#model4_content_right{
+	height: 100%;
+}
+#model4circle{
+	margin-top: 180px;
+}
+
+
+/*第5个模块*/
+.model5{
+	height: 700px;
+	box-shadow: 0 0 5px #7193B2;
+	background-color: #80a8cc;
+}
+
+#model5_content_left{
+	float: left;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: 80px;
+}
+
+#model5circle{
+	padding-left: 280px;
+	margin-top: 180px;
+}
+
+#model5_content_right{
+	margin-left: 150px;
+	height: 100%;
+}
+
+#model5_slogan{
+	display: block;
+	padding-top: 170px;
+	color: #fcf9f4;
+	text-align: left;
+	font-size: 52px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#model5_inner_text{
+	display: block;
+	margin-top: 32px;
+	font-size: 20px;
+	color: #fcf9f4;
+	width: 84%;
+}
+
+#inner_help{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fcf9f4;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 4px;
+	background-color: #6d91b1;
+	margin-top: 32px;
+}
+
+/*第6个模块*/
+.model6{
+	height: 840px;
+	background-color: #FCF9F4;
+}
+
+#model6_slogan{
+	display: inline-block;	
+	color: #909094;
+	padding-top: 170px;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Amatica SC',cursive;
+}
+
+#model6_inner{
+	margin-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.model6_inner_text{
+	float: left;
+	width: 300px;
+	height: 300px;
+	border: 1px solid #eeece7;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 20px;
+	padding-bottom: 0px;
+}
+
+.model6_inner_num{
+	font-size: 72px;
+	margin-bottom: 0px;
+	font-family: 'Amatica SC',cursive;
+}
+
+.model6_inner_phrase{
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+#inner_num1, #inner_phrase1{
+	color: #91d0b1;
+}
+
+#inner_num2, #inner_phrase2{
+	color: #ffcd62;
+}
+
+#inner_num3, #inner_phrase3{
+	color: #80a8cc;
+}
+
+/*底部版权栏*/
+.foot{
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #4d4e59;
+}
+
+#foot_copyright{
+	height: 100px;
+	line-height: 100px;
+	color: #d4d2d0;
+}
