@@ -10,7 +10,7 @@ function bestCharge(selectedItems) {
   return result;
 }
 
-//#1：将输入["ITEM0013 x 3", "ITEM0022 x 1"]这种形式转换为json数组
+//#1：将["ITEM0013 x 3", "ITEM0022 x 1"]这种形式的输入转换为订单json数组
 function convertOrderToJsonFormart(selectedItems) {
   const length = selectedItems.length;
   let index = 0;
