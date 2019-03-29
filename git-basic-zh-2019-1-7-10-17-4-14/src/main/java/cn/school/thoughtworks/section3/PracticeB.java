@@ -5,8 +5,12 @@ import java.util.Map;
 
 public class PracticeB {
     Map<String,Integer> createUpdatedCollection(Map<String,Integer> collectionA, Map<String,List<String>> object) {
-        //实现练习要求，并改写该行代码。
-
-        return null;
+        List<String> value = object.get("value");
+        value.forEach(s -> {
+            if (collectionA.containsKey(s))
+                if (collectionA.get(s) >= 3)
+                    collectionA.put(s, collectionA.get(s) - collectionA.get(s) / 3);
+        });
+        return collectionA;
     }
 }
