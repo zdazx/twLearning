@@ -61,6 +61,6 @@ describe('taxi fee', function () {
         let numKm = 32;   //公里数
         let timeWait = 15;   // 停车等待时长
         let resultFee = main(numKm, timeWait);
-        expect(resultFee).toEqual(44); 
+        expect(resultFee).toEqual(44);
     });
 });
